@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="icon" type="image/svg+xml" href="imagens/angle.svg">
+    <style type="text/css">
+        /*configuração padrão da página8
+        ---------------------------------*/
+        body, html {
+            margin: 0;
+            font:16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo{
+            color: #777;
+            background-color: white;
+            text-align: center;
+            padding: 50px 80px;
+        }
+
+        h3{
+            text-transform: uppercase;
+            color: #111;
+            text-align: center;
+        }
+
+        p{
+            margin-bottom: 20px;
+        }
+
+            /*configuração do parallax*/
+        .caixa1, .caixa2, .caixa3, .caixa4{
+            position: relative;
+            height: 100%;
+            opacity: 0.7;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+
+        .caixa1{
+            background-image: url(imagens/Imagem\ 1.jpg);
+        }
+
+        .caixa2{
+            background-image: url(imagens/Imagem\ 2.jpg);
+        }
+
+        .caixa3{
+            background-image: url(imagens/Imagem\ 3.jpg);
+        }
+
+        .caixa4{
+            background-image: url(imagens/Imagem\ 4.jpg);
+        }
+
+        .conteudo-titulo{
+            position: absolute;
+            top: 45%;
+            left: 0%;
+            width: 100%;
+            text-align: center;
+        }
+
+        .conteudo-titulo span.titulo{
+            color: #fff;
+            background-color: #111;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+            text-transform: uppercase;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="caixa1">
+        <div class="conteudo-titulo">
+            <span class="titulo">Apprenticeship</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Project created for learning and using the parallax effect.</p>
+    </div>
+
+     <div class="caixa2">
+         <div class="conteudo-titulo">
+            <span class="titulo">Famous uses</span>
+        </div>
+    </div>
+
+     <div class="conteudo">
+        <h3>Games and design</h3>
+        <p>Here are two of the most famous uses of parallax, one of them is 2D games that marked generations like 'Super Mario' and 'Sonic' using the effect for better atmosphere and immersion.
+            The other is the designs of major brands like Google and Apple that consequently opted for its use because of the smoothness and "lightness" it offers.</p>
+    </div>
+
+    <div class="caixa3">
+         <div class="conteudo-titulo">
+            <span class="titulo">advantages</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Beautiful and interactive</h3>
+        <p>The advantages are significant in small actions, provoking small interactions, greater depth, and an image of greater professionalism.</p>
+    </div>
+
+    <div class="caixa4">
+         <div class="conteudo-titulo">
+            <span class="titulo">care</span>
+        </div>
+    </div>
+
+    <div class="conteudo">
+        <h3>Excessive and abusive use</h3>
+        <p>Although aesthetically pleasing, excessive and overuse can cause problems such as: FPS drops, response issues, loading times, readability problems, and contrast issues.</p>
+    </div>
+    
+</body>
+</html>
